@@ -1188,7 +1188,7 @@
       notificacao.textContent = mensagem;
       notificacao.style.cssText = `
         position: fixed;
-        top: 20px;
+        top: calc(20px + env(safe-area-inset-top, 0px));
         right: 20px;
         padding: 12px 20px;
         border-radius: 8px;
