@@ -1,17 +1,18 @@
 const CACHE_NAME = 'conversor-wise-v1.0.0';
+const BASE_URL = '/CalculadoraWise/';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/icons/icon-72x72.png',
-  '/icons/icon-96x96.png',
-  '/icons/icon-128x128.png',
-  '/icons/icon-144x144.png',
-  '/icons/icon-152x152.png',
-  '/icons/icon-192x192.png',
-  '/icons/icon-384x384.png',
-  '/icons/icon-512x512.png',
-  '/icons/logo.png'
+  BASE_URL,
+  BASE_URL + 'index.html',
+  BASE_URL + 'manifest.json',
+  BASE_URL + 'icons/icon-72x72.png',
+  BASE_URL + 'icons/icon-96x96.png',
+  BASE_URL + 'icons/icon-128x128.png',
+  BASE_URL + 'icons/icon-144x144.png',
+  BASE_URL + 'icons/icon-152x152.png',
+  BASE_URL + 'icons/icon-192x192.png',
+  BASE_URL + 'icons/icon-384x384.png',
+  BASE_URL + 'icons/icon-512x512.png',
+  BASE_URL + 'icons/logo.png'
 ];
 
 // Instalar service worker
@@ -56,7 +57,7 @@ self.addEventListener('fetch', event => {
           .catch(() => {
             // Se offline e não encontrado no cache, retorna página offline
             if (event.request.destination === 'document') {
-              return caches.match('/index.html');
+              return caches.match(BASE_URL + 'index.html');
             }
           });
       })

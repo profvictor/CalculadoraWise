@@ -2,59 +2,59 @@
   "name": "Conversor Wise",
   "short_name": "Conversor Wise",
   "description": "Calculadora para conversões de moeda usando Wise - Calcule suas conversões para Orlando",
-  "start_url": "/",
+  "start_url": "/CalculadoraWise/",
   "display": "standalone",
   "background_color": "#667eea",
   "theme_color": "#667eea",
   "orientation": "portrait",
-  "scope": "/",
+  "scope": "/CalculadoraWise/",
   "lang": "pt-BR",
   "categories": ["finance", "utilities"],
   "icons": [
     {
-      "src": "icons/icon-72x72.png",
+      "src": "/CalculadoraWise/icons/icon-72x72.png",
       "sizes": "72x72",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icons/icon-96x96.png",
+      "src": "/CalculadoraWise/icons/icon-96x96.png",
       "sizes": "96x96",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icons/icon-128x128.png",
+      "src": "/CalculadoraWise/icons/icon-128x128.png",
       "sizes": "128x128",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icons/icon-144x144.png",
+      "src": "/CalculadoraWise/icons/icon-144x144.png",
       "sizes": "144x144",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icons/icon-152x152.png",
+      "src": "/CalculadoraWise/icons/icon-152x152.png",
       "sizes": "152x152",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icons/icon-192x192.png",
+      "src": "/CalculadoraWise/icons/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icons/icon-384x384.png",
+      "src": "/CalculadoraWise/icons/icon-384x384.png",
       "sizes": "384x384",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icons/icon-512x512.png",
+      "src": "/CalculadoraWise/icons/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -65,10 +65,10 @@
       "name": "Conversão BRL → USD",
       "short_name": "BRL→USD",
       "description": "Converter de Real para Dólar",
-      "url": "/?tab=envio&type=brl-to-usd",
+      "url": "/CalculadoraWise/?tab=envio&type=brl-to-usd",
       "icons": [
         {
-          "src": "icons/icon-96x96.png",
+          "src": "/CalculadoraWise/icons/icon-96x96.png",
           "sizes": "96x96"
         }
       ]
@@ -77,10 +77,10 @@
       "name": "Conversão USD → BRL",
       "short_name": "USD→BRL",
       "description": "Converter de Dólar para Real",
-      "url": "/?tab=envio&type=usd-to-brl",
+      "url": "/CalculadoraWise/?tab=envio&type=usd-to-brl",
       "icons": [
         {
-          "src": "icons/icon-96x96.png",
+          "src": "/CalculadoraWise/icons/icon-96x96.png",
           "sizes": "96x96"
         }
       ]
@@ -89,10 +89,10 @@
       "name": "Calcular Compra",
       "short_name": "Comprar",
       "description": "Calcular valor de produtos",
-      "url": "/?tab=produto",
+      "url": "/CalculadoraWise/?tab=produto",
       "icons": [
         {
-          "src": "icons/icon-96x96.png",
+          "src": "/CalculadoraWise/icons/icon-96x96.png",
           "sizes": "96x96"
         }
       ]
