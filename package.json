@@ -1,0 +1,32 @@
+{
+  "name": "conversor-wise",
+  "version": "1.0.0",
+  "description": "Calculadora para conversões de moeda usando Wise - PWA",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8080 -c-1",
+    "dev": "npx live-server --port=8080",
+    "build": "echo 'PWA já está pronta para produção'",
+    "deploy": "echo 'Faça upload dos arquivos para seu servidor web'"
+  },
+  "keywords": [
+    "pwa",
+    "conversor",
+    "moeda",
+    "wise",
+    "dolar",
+    "real",
+    "calculadora"
+  ],
+  "author": "Victor C.",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/conversor-wise.git"
+  },
+  "homepage": "https://seu-dominio.com/conversor-wise"
+} 
